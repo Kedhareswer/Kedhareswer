@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Kedhareswer
 - 👀 I’m interested in Artificial Intelligence.
-- 🌱 I’m currently learning B.Tech Computers.
+- 🌱 I’m currently learning C language.
 - 💞️ I’m looking to collaborate on an Individual who helps me learn
 - 📫 Reach me through kedhareswer.12110626@gmail.com.
 
