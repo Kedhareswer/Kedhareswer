@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @Kedhareswer
-- 👀 I’m interested in Artificial Intelligence.
+- 👀 I’m interested in Data Science.
 - 💞️ I’m looking to collaborate with an Individual who helps me learn new technologies
-- 📫 Reach me through kedhareswer.12110626@gmail.com.
+- 📫 Reach me through [kedhareswer.12110626@gmail.com.](https://www.linkedin.com/in/kedhareswer-naidu/)
 
 <!---
 Kedhareswer/Kedhareswer is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
