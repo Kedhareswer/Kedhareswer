@@ -1,4 +1,4 @@
-# Hi, I'm [Your Name] 👋  
+# Hi, I'm Kedhareswer 👋  
 
 ## 🚀 About Me  
 Welcome to my GitHub! I'm a **Data Science & AI/ML Enthusiast** who loves building intelligent systems and optimizing machine learning workflows. My work spans **computer vision, NLP, and AI-driven automation**, with a strong focus on deep learning and real-world applications.  
