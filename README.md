@@ -42,7 +42,7 @@ Welcome to my GitHub! I'm a **Data Science & AI/ML Enthusiast** who loves buildi
 
 ## 📬 Get in Touch  
 
-📧 **Email:** [Your Email]  
+📧 **Email:** [Kedhareswer.12110626@gmail.com](Kedhareswer.12110626@gmail.com)  
 💼 **LinkedIn:** [Kedhareswer](https://www.linkedin.com/in/kedhareswernaidu/)  
 🌐 **Portfolio:** [Kedhareswer](https://kedhareswer.github.io/MyPortfolio/)  
 
