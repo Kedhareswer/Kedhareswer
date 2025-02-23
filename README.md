@@ -11,19 +11,19 @@ Welcome to my GitHub! I'm a **Data Science & AI/ML Enthusiast** who loves buildi
 
 ## 🌟 Top Projects  
 
-### 🎨 [AI Art Generator](#)  
+### 🎨 [AI Art Generator](https://github.com/Kedhareswer/AWSHackathon2025)  
 **Description:** A web app that transforms text into anime-style artwork using **AWS Bedrock Titan**.  
 **Tech Stack:** Python (Flask), JavaScript, WebSockets, AWS.  
 
-### 🔍 [Endoscopic Image & Video Enhancement](#)  
+### 🔍 [Endoscopic Image & Video Enhancement] 
 **Description:** Enhancing medical imaging using **SRCNN, SRGAN & U-Net** for clearer endoscopic visuals.  
 **Tech Stack:** TensorFlow, PyTorch, OpenCV, Google Colab TPUv4.  
 
-### 📰 [Fake News Detection System](#)  
+### 📰 [Fake News Detection System]
 **Description:** Real-time ML model that detects fake news by **analyzing news URLs, performing NLP-based verification, and cross-referencing trusted sources**.  
 **Tech Stack:** Hugging Face, LangChain, FAISS, Python.  
 
-### 🤖 [PDFChatBot](#)  
+### 🤖 [PDFChatBot](https://github.com/Kedhareswer/PDFChatBot)  
 **Description:** A browser-based chatbot that allows users to upload PDFs, extract key insights, and ask AI-powered questions.  
 **Tech Stack:** PDF.js, LangChain, Hugging Face, FAISS, BART.  
 
@@ -43,8 +43,8 @@ Welcome to my GitHub! I'm a **Data Science & AI/ML Enthusiast** who loves buildi
 ## 📬 Get in Touch  
 
 📧 **Email:** [Your Email]  
-💼 **LinkedIn:** [Your LinkedIn Profile](#)  
-🌐 **Portfolio:** [Your Website (if any)](#)  
+💼 **LinkedIn:** [Kedhareswer](https://www.linkedin.com/in/kedhareswernaidu/)  
+🌐 **Portfolio:** [Kedhareswer](https://kedhareswer.github.io/MyPortfolio/)  
 
 ---
 
