@@ -4,8 +4,7 @@
 Welcome to my GitHub! I'm a **Data Science & AI/ML Enthusiast** who loves building intelligent systems and optimizing machine learning workflows. My work spans **computer vision, NLP, and AI-driven automation**, with a strong focus on deep learning and real-world applications.  
 
 💡 I’m passionate about **turning data into insights** and **models into impactful solutions**.  
-🔍 Always exploring **cutting-edge AI techniques** and **enhancing model efficiency**.  
-🎯 Currently working as a **Software Engineer at Fidelity International** and leading innovative AI projects.  
+🔍 Always exploring **cutting-edge AI techniques** and **enhancing model efficiency**.   
 
 ---
 
