@@ -108,7 +108,7 @@ Here are some of my favorite projects:
   <a href="https://www.linkedin.com/in/kedhareswernaidu/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
-  <a href="https://kedhareswer.github.io/MyPortfolio/">
+  <a href="https://naa-peru.vercel.app/">
     <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio">
   </a>
 </div>
