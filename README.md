@@ -89,6 +89,15 @@ Here are some of my favorite projects:
 
 ---
 
+### 🛠 AI Tools Mastery  
+<div align="center" style="background: rgba(255, 255, 255, 0.1); border-radius: 15px; backdrop-filter: blur(10px); padding: 10px;">
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel">
+  <img src="https://img.shields.io/badge/Bolt-blue?style=for-the-badge&logo=bolt&logoColor=white" alt="Bolt">
+  <img src="https://img.shields.io/badge/Lovable-pink?style=for-the-badge&logo=lovable&logoColor=white" alt="Lovable">
+</div>
+
+---
+
 ### 🛠 Version Control  
 <div align="center" style="background: rgba(255, 255, 255, 0.1); border-radius: 15px; backdrop-filter: blur(10px); padding: 10px;">
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
@@ -134,6 +143,6 @@ Here are some of my favorite projects:
 
 ---
 
-## 🌟 Fact  
+## 🌟 Fun Fact  
 
 _"AI is not just about machines learning, but about humans dreaming bigger."_ 🚀  
