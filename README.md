@@ -52,13 +52,19 @@ Here are some of my favorite projects:
 <div align="center" style="background: rgba(255, 255, 255, 0.1); border-radius: 15px; backdrop-filter: blur(10px); padding: 10px;">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
   <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL">
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
 </div>
 
 ---
 
 ### 🤖 AI & ML  
-- Deep Learning, Computer Vision, NLP  
+<div align="center" style="background: rgba(255, 255, 255, 0.1); border-radius: 15px; backdrop-filter: blur(10px); padding: 10px;">
+  <img src="https://img.shields.io/badge/Deep%20Learning-FF6F00?style=for-the-badge&logo=deep-learning&logoColor=white" alt="Deep Learning">
+  <img src="https://img.shields.io/badge/Computer%20Vision-EE4C2C?style=for-the-badge&logo=computer-vision&logoColor=white" alt="Computer Vision">
+  <img src="https://img.shields.io/badge/NLP-5C3EE8?style=for-the-badge&logo=nlp&logoColor=white" alt="NLP">
+</div>
 
 ---
 
@@ -78,6 +84,7 @@ Here are some of my favorite projects:
   <img src="https://img.shields.io/badge/Google%20Colab-F9AB00?style=for-the-badge&logo=google-colab&logoColor=white" alt="Google Colab">
   <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask">
   <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit">
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel">
 </div>
 
 ---
@@ -90,11 +97,23 @@ Here are some of my favorite projects:
 
 ---
 
+### 📊 Data Tools  
+<div align="center" style="background: rgba(255, 255, 255, 0.1); border-radius: 15px; backdrop-filter: blur(10px); padding: 10px;">
+  <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white" alt="Tableau">
+  <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=power-bi&logoColor=black" alt="Power BI">
+  <img src="https://img.shields.io/badge/Big%20Data-FF6F00?style=for-the-badge&logo=big-data&logoColor=white" alt="Big Data">
+  <img src="https://img.shields.io/badge/Data%20Visualization-007ACC?style=for-the-badge&logo=data-visualization&logoColor=white" alt="Data Visualization">
+  <img src="https://img.shields.io/badge/Data%20Analytics-0052CC?style=for-the-badge&logo=data-analytics&logoColor=white" alt="Data Analytics">
+</div>
+
+---
+
 ## 📊 GitHub Stats  
 
 <div align="center" style="background: rgba(255, 255, 255, 0.1); border-radius: 15px; backdrop-filter: blur(10px); padding: 20px;">
   <img src="https://github-readme-stats.vercel.app/api?username=Kedhareswer&show_icons=true&theme=radical" alt="GitHub Stats">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kedhareswer&layout=compact&theme=radical" alt="Top Languages">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Kedhareswer&theme=radical" alt="Current Year Contributions">
 </div>
 
 ---
@@ -115,10 +134,6 @@ Here are some of my favorite projects:
 
 ---
 
-## 🌟 Fun Fact  
+## 🌟 Fact  
 
 _"AI is not just about machines learning, but about humans dreaming bigger."_ 🚀  
-
----
-
-Thanks for stopping by! Feel free to explore my repositories and connect with me. Let's build something amazing together! 😊  
