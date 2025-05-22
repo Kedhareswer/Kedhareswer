@@ -45,7 +45,7 @@ Here are some of my favorite and most notable repositories:
   Notebooks and TypeScript code for machine learning model development and experimentation.
 
 - [**MyPortfolio**](https://github.com/Kedhareswer/MyPortfolio)  
-  My personal portfolio website, built with HTML, CSS, and JavaScript.
+  My old personal portfolio website, built with HTML, CSS, and JavaScript.
 
 ---
 
@@ -118,6 +118,6 @@ Here are some of my favorite and most notable repositories:
 
 ---
 
-## 🌟 Fun Fact
+## 🌟 Fact
 
 _"AI is not just about machines learning, but about humans dreaming bigger."_ 🚀
