@@ -1,6 +1,6 @@
-# Hi, I'm Kedhareswer! 👋  
+# Hi, I'm Kedhareswer! 👋
 
-Welcome to my GitHub! I'm a **Data Science & AI/ML Enthusiast** passionate about building intelligent systems and optimizing machine learning workflows. My work spans **computer vision, NLP, and AI-driven automation**, with a strong focus on deep learning and real-world applications.
+Welcome to my GitHub! I'm a **Data Science & AI/ML Enthusiast** passionate about building intelligent systems and optimizing machine learning workflows. My work spans **computer vision, NLP, and AI product development**—with hands-on experience across the full stack of ML tools, frameworks, and deployment.
 
 ---
 
@@ -12,43 +12,46 @@ Welcome to my GitHub! I'm a **Data Science & AI/ML Enthusiast** passionate about
 
 ---
 
-## 🚀 About Me  
+## 🚀 About Me
 💡 I’m passionate about **turning data into insights** and **models into impactful solutions**.  
 🔍 Always exploring **cutting-edge AI techniques** and **enhancing model efficiency**.  
-🎯 My goal is to contribute to **innovative AI-driven products** that make a difference.  
+🎯 My goal is to contribute to **innovative AI-driven products** that make a difference.
 
 ---
 
-## 🌟 Top Projects  
-Here are some of my favorite projects:
+## 🌟 Featured Projects
 
-### 🎨 [AI Art Generator](https://github.com/Kedhareswer/AWSHackathon2025)  
-- **Description:** A web app that transforms text into anime-style artwork using **AWS Bedrock Titan**.  
-- **Tech Stack:** Python (Flask), JavaScript, WebSockets, AWS.  
+Here are some of my favorite and most notable repositories:
+
+- [**ML_Projects**](https://github.com/Kedhareswer/ML_Projects)  
+  A collection of machine learning projects and experiments using Jupyter Notebooks. Covers topics from classic ML to deep learning.
+
+- [**ai-project-planner**](https://github.com/Kedhareswer/ai-project-planner)  
+  An AI-powered project management/planning tool, built with TypeScript.
+
+- [**Object-Detection-and-Tracking**](https://github.com/Kedhareswer/Object-Detection-and-Tracking)  
+  End-to-end solutions for object detection and tracking using HTML and Python integrations.
+
+- [**emotion_recognition**](https://github.com/Kedhareswer/emotion_recognition)  
+  Emotion recognition from images using Python and web technologies.
+
+- [**MLGeneFunction**](https://github.com/Kedhareswer/MLGeneFunction)  
+  Machine learning for gene function prediction, leveraging Jupyter Notebooks and TypeScript.
+
+- [**ML-AI**](https://github.com/Kedhareswer/ML-AI)  
+  A repository of advanced ML and AI experiments, all in Jupyter Notebook.
+
+- [**ML_Notebook**](https://github.com/Kedhareswer/ML_Notebook)  
+  Notebooks and TypeScript code for machine learning model development and experimentation.
+
+- [**MyPortfolio**](https://github.com/Kedhareswer/MyPortfolio)  
+  My personal portfolio website, built with HTML, CSS, and JavaScript.
 
 ---
 
-### 🔍 Endoscopic Image & Video Enhancement  
-- **Description:** Enhancing medical imaging using **SRCNN, SRGAN & U-Net** for clearer endoscopic visuals.  
-- **Tech Stack:** TensorFlow, PyTorch, OpenCV, Google Colab TPUv4.  
+## 🛠️ Skills
 
----
-
-### 📰 Fake News Detection System  
-- **Description:** Real-time ML model that detects fake news by **analyzing news URLs, performing NLP-based verification, and cross-referencing trusted sources**.  
-- **Tech Stack:** Hugging Face, LangChain, FAISS, Python.  
-
----
-
-### 🤖 [PDFChatBot](https://github.com/Kedhareswer/PDFChatBot)  
-- **Description:** A browser-based chatbot that allows users to upload PDFs, extract key insights, and ask AI-powered questions.  
-- **Tech Stack:** PDF.js, LangChain, Hugging Face, FAISS, BART.  
-
----
-
-## 🛠️ Skills  
-
-### 🖥 Programming  
+### 🖥 Programming
 <div align="center" style="background: rgba(255, 255, 255, 0.1); border-radius: 15px; backdrop-filter: blur(10px); padding: 10px;">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
@@ -59,7 +62,7 @@ Here are some of my favorite projects:
 
 ---
 
-### 🤖 AI & ML  
+### 🤖 AI & ML
 <div align="center" style="background: rgba(255, 255, 255, 0.1); border-radius: 15px; backdrop-filter: blur(10px); padding: 10px;">
   <img src="https://img.shields.io/badge/Deep%20Learning-FF6F00?style=for-the-badge&logo=deep-learning&logoColor=white" alt="Deep Learning">
   <img src="https://img.shields.io/badge/Computer%20Vision-EE4C2C?style=for-the-badge&logo=computer-vision&logoColor=white" alt="Computer Vision">
@@ -68,7 +71,7 @@ Here are some of my favorite projects:
 
 ---
 
-### 🚀 Frameworks & Tools  
+### 🚀 Frameworks & Tools
 <div align="center" style="background: rgba(255, 255, 255, 0.1); border-radius: 15px; backdrop-filter: blur(10px); padding: 10px;">
   <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow">
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch">
@@ -78,7 +81,7 @@ Here are some of my favorite projects:
 
 ---
 
-### ☁️ Cloud & Deployment  
+### ☁️ Cloud & Deployment
 <div align="center" style="background: rgba(255, 255, 255, 0.1); border-radius: 15px; backdrop-filter: blur(10px); padding: 10px;">
   <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS">
   <img src="https://img.shields.io/badge/Google%20Colab-F9AB00?style=for-the-badge&logo=google-colab&logoColor=white" alt="Google Colab">
@@ -89,35 +92,7 @@ Here are some of my favorite projects:
 
 ---
 
-### 🛠 AI Tools Mastery  
-<div align="center" style="background: rgba(255, 255, 255, 0.1); border-radius: 15px; backdrop-filter: blur(10px); padding: 10px;">
-  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel">
-  <img src="https://img.shields.io/badge/Bolt-blue?style=for-the-badge&logo=bolt&logoColor=white" alt="Bolt">
-  <img src="https://img.shields.io/badge/Lovable-pink?style=for-the-badge&logo=lovable&logoColor=white" alt="Lovable">
-</div>
-
----
-
-### 🛠 Version Control  
-<div align="center" style="background: rgba(255, 255, 255, 0.1); border-radius: 15px; backdrop-filter: blur(10px); padding: 10px;">
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-</div>
-
----
-
-### 📊 Data Tools  
-<div align="center" style="background: rgba(255, 255, 255, 0.1); border-radius: 15px; backdrop-filter: blur(10px); padding: 10px;">
-  <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white" alt="Tableau">
-  <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=power-bi&logoColor=black" alt="Power BI">
-  <img src="https://img.shields.io/badge/Big%20Data-FF6F00?style=for-the-badge&logo=big-data&logoColor=white" alt="Big Data">
-  <img src="https://img.shields.io/badge/Data%20Visualization-007ACC?style=for-the-badge&logo=data-visualization&logoColor=white" alt="Data Visualization">
-  <img src="https://img.shields.io/badge/Data%20Analytics-0052CC?style=for-the-badge&logo=data-analytics&logoColor=white" alt="Data Analytics">
-</div>
-
----
-
-## 📊 GitHub Stats  
+## 📊 GitHub Stats
 
 <div align="center" style="background: rgba(255, 255, 255, 0.1); border-radius: 15px; backdrop-filter: blur(10px); padding: 20px;">
   <img src="https://github-readme-stats.vercel.app/api?username=Kedhareswer&show_icons=true&theme=radical" alt="GitHub Stats">
@@ -127,7 +102,7 @@ Here are some of my favorite projects:
 
 ---
 
-## 📬 Get in Touch  
+## 📬 Get in Touch
 
 <div align="center" style="background: rgba(255, 255, 255, 0.1); border-radius: 15px; backdrop-filter: blur(10px); padding: 15px;">
   <a href="mailto:Kedhareswer.12110626@gmail.com">
@@ -143,6 +118,6 @@ Here are some of my favorite projects:
 
 ---
 
-## 🌟 Fun Fact  
+## 🌟 Fun Fact
 
-_"AI is not just about machines learning, but about humans dreaming bigger."_ 🚀  
+_"AI is not just about machines learning, but about humans dreaming bigger."_ 🚀
