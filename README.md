@@ -47,6 +47,9 @@ Here are some of my favorite and most notable repositories:
 - [**MyPortfolio**](https://github.com/Kedhareswer/MyPortfolio)  
   My old personal portfolio website, built with HTML, CSS, and JavaScript.
 
+- [**My_Portfolio_Designs**](https://github.com/Kedhareswer/My_Portfolio_Designs)  
+  A collection of personal portfolio websites and designs I have created and am ready to sell—perfect for anyone looking for a unique, professional web presence!
+
 ---
 
 ## 🛠️ Skills
