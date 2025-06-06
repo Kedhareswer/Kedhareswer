@@ -63,11 +63,10 @@
 
 ## 🤝 Connect & Collaborate
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_LINKEDIN)
-[![Google Scholar](https://img.shields.io/badge/Google_Scholar-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white)](YOUR_SCHOLAR_LINK)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Kedhareswer)
-[![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](YOUR_KAGGLE_LINK)
+[![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/kedhareswernaidu)
 
 ---
 📫 **Contact:** For collaboration on AI/ML projects or research opportunities, reach out via LinkedIn or GitHub.
 
-> Last Updated: 2025-06-06
+> Last Updated: 2025-06-06 20:08:45 UTC
