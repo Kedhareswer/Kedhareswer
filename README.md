@@ -12,6 +12,62 @@
   
 </div>
 
+## 🗺️ Skills & Expertise Map
+
+```mermaid
+mindmap
+  root((AI/ML Engineer))
+    Machine Learning
+      Deep Learning
+        PyTorch
+        TensorFlow
+        Computer Vision
+        NLP
+      Classical ML
+        scikit-learn
+        Statistical Analysis
+        Feature Engineering
+    Data Science
+      Data Analysis
+        Pandas
+        NumPy
+        Data Visualization
+      Big Data
+        SQL
+        Data Pipelines
+    Full Stack
+      Frontend
+        React
+        TypeScript
+        Next.js
+      Backend
+        Python
+        APIs
+        Databases
+    MLOps
+      Docker
+      Git
+      MLflow
+      CI/CD
+```
+
+## 🔄 Project Architecture Example: QuantumPDF ChatApp
+
+```mermaid
+flowchart LR
+    User((User)) --> Frontend[React Frontend]
+    Frontend --> API[TypeScript API]
+    API --> RAG[RAG Pipeline]
+    RAG --> VectorDB[(Vector Database)]
+    RAG --> LLM[Language Models]
+    LLM --> HF[HuggingFace]
+    LLM --> OpenAI[OpenAI]
+    VectorDB --> Results[Search Results]
+    Results --> API
+    API --> Frontend
+    Frontend --> User
+```
+
 ## 🧠 Featured Projects
 
 ### 🔬 AI & Machine Learning
@@ -20,12 +76,57 @@
 | [ML_Projects](https://github.com/Kedhareswer/ML_Projects) | Comprehensive collection of ML experiments and research | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white) | ![Stars](https://img.shields.io/github/stars/Kedhareswer/ML_Projects) |
 | [Endoscopy-Image-Enhancement](https://github.com/Kedhareswer/Endoscopy-Image-Enhancement) | Medical imaging enhancement using deep learning | ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white) | [![Live](https://img.shields.io/badge/Live-00C853?style=flat&logo=vercel&logoColor=white)](https://endoscopy-image-enhancement.onrender.com) |
 
+## 📊 Project Timeline
+
+```mermaid
+gantt
+    title Project Development Timeline
+    dateFormat  YYYY-MM-DD
+    section AI/ML
+    ML_Projects           :2025-03-13, 90d
+    Endoscopy-Image-Enhancement :2025-04-17, 60d
+    section RAG Apps
+    QuantumPDF_ChatApp    :2025-05-31, 30d
+    RAG_HuggingFace      :2025-06-03, 14d
+    section Web Apps
+    NaaPeru             :2025-04-07, 45d
+    Interactive Periodic Table :2025-05-15, 30d
+    Voice_Search        :2025-06-06, 21d
+```
+
 ### 🤖 LLM & RAG Applications
 | Project | Description | Tech Stack | Demo |
 |---------|-------------|------------|------|
 | [QuantumPDF_ChatApp](https://github.com/Kedhareswer/QuantumPDF_ChatApp) | Advanced RAG-based PDF analysis with multiple LLM support | ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black) ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white) | [![Live Demo](https://img.shields.io/badge/Live-Demo-success)](https://v0-rag-pdf-chatbot-eight.vercel.app) |
 | [platform-prompt-alchemy-lab](https://github.com/Kedhareswer/platform-prompt-alchemy-lab) | AI prompt engineering & optimization platform | ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) | [![Live Demo](https://img.shields.io/badge/Live-Demo-success)](https://prompt-enhancer-hazel.vercel.app) |
 | [RAG_HuggingFace](https://github.com/Kedhareswer/RAG_HuggingFace) | RAG implementation with Hugging Face models | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black) | Private |
+
+## 🔄 Tech Stack Relationships
+
+```mermaid
+graph TD
+    AI[AI/ML Development] --> DL[Deep Learning]
+    AI --> ML[Machine Learning]
+    AI --> DS[Data Science]
+    
+    DL --> CV[Computer Vision]
+    DL --> NLP[Natural Language Processing]
+    
+    CV --> IMG[Image Enhancement]
+    CV --> MED[Medical Imaging]
+    
+    NLP --> RAG[RAG Systems]
+    NLP --> PE[Prompt Engineering]
+    
+    DS --> DA[Data Analysis]
+    DS --> VIZ[Data Visualization]
+    
+    subgraph Tools
+    Python --> |Libraries| SciKit[Scikit-learn]
+    Python --> |Deep Learning| PyTorch
+    Python --> |Data| Pandas
+    end
+```
 
 ### 🌐 Web Applications
 | Project | Description | Tech Stack | Demo |
@@ -101,6 +202,6 @@
 ⭐ From [Kedhareswer](https://github.com/Kedhareswer)
 </div>
 
-> Last Updated: 2025-06-06 20:16:10 UTC
+> Last Updated: 2025-06-06 20:19:37 UTC
 
 > Note: View all 58 repositories on my [GitHub profile](https://github.com/Kedhareswer?tab=repositories)
