@@ -65,32 +65,6 @@ mindmap
 | [platform-prompt-alchemy-lab](https://github.com/Kedhareswer/platform-prompt-alchemy-lab) | AI prompt engineering & optimization platform | ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) | [![Live Demo](https://img.shields.io/badge/Live-Demo-success)](https://prompt-enhancer-hazel.vercel.app) |
 | [RAG_HuggingFace](https://github.com/Kedhareswer/RAG_HuggingFace) | RAG implementation with Hugging Face models | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black) | Private |
 
-## 🔄 Tech Stack Relationships
-
-```mermaid
-graph TD
-    AI[AI/ML Development] --> DL[Deep Learning]
-    AI --> ML[Machine Learning]
-    AI --> DS[Data Science]
-    
-    DL --> CV[Computer Vision]
-    DL --> NLP[Natural Language Processing]
-    
-    CV --> IMG[Image Enhancement]
-    CV --> MED[Medical Imaging]
-    
-    NLP --> RAG[RAG Systems]
-    NLP --> PE[Prompt Engineering]
-    
-    DS --> DA[Data Analysis]
-    DS --> VIZ[Data Visualization]
-    
-    subgraph Tools
-    Python --> |Libraries| SciKit[Scikit-learn]
-    Python --> |Deep Learning| PyTorch
-    Python --> |Data| Pandas
-    end
-```
 
 ### 🌐 Web Applications
 | Project | Description | Tech Stack | Demo |
@@ -126,7 +100,6 @@ graph TD
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
 ### DevOps & Tools
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
@@ -166,6 +139,6 @@ graph TD
 ⭐ From [Kedhareswer](https://github.com/Kedhareswer)
 </div>
 
-> Last Updated: 2025-06-06 20:19:37 UTC
+> Last Updated: 2025-06-14 20:19:37 UTC
 
 > Note: View all 58 repositories on my [GitHub profile](https://github.com/Kedhareswer?tab=repositories)
