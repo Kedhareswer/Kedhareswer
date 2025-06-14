@@ -45,27 +45,9 @@ mindmap
         APIs
         Databases
     MLOps
-      Docker
       Git
       MLflow
       CI/CD
-```
-
-## 🔄 Project Architecture Example: QuantumPDF ChatApp
-
-```mermaid
-flowchart LR
-    User((User)) --> Frontend[React Frontend]
-    Frontend --> API[TypeScript API]
-    API --> RAG[RAG Pipeline]
-    RAG --> VectorDB[(Vector Database)]
-    RAG --> LLM[Language Models]
-    LLM --> HF[HuggingFace]
-    LLM --> OpenAI[OpenAI]
-    VectorDB --> Results[Search Results]
-    Results --> API
-    API --> Frontend
-    Frontend --> User
 ```
 
 ## 🧠 Featured Projects
