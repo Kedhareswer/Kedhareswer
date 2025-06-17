@@ -12,45 +12,6 @@
   
 </div>
 
-## 🗺️ Skills & Expertise Map
-
-```mermaid
-mindmap
-  root((AI/ML Engineer))
-    Machine Learning
-      Deep Learning
-        PyTorch
-        TensorFlow
-        Computer Vision
-        NLP
-      Classical ML
-        scikit-learn
-        Statistical Analysis
-        Feature Engineering
-    Data Science
-      Data Analysis
-        Pandas
-        NumPy
-        Data Visualization
-      Big Data
-        SQL
-        Data Pipelines
-    Full Stack
-      Frontend
-        React
-        TypeScript
-        Next.js
-      Backend
-        Python
-        APIs
-        Databases
-    MLOps
-      Git
-      MLflow
-      CI/CD
-```
-
-
 ## 🧠 Featured Projects
 
 ### 🔬 AI & Machine Learning
@@ -104,6 +65,44 @@ mindmap
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+
+## 🗺️ Skills Map
+
+```mermaid
+mindmap
+  root((AI/ML Engineer))
+    Machine Learning
+      Deep Learning
+        PyTorch
+        TensorFlow
+        Computer Vision
+        NLP
+      Classical ML
+        scikit-learn
+        Statistical Analysis
+        Feature Engineering
+    Data Science
+      Data Analysis
+        Pandas
+        NumPy
+        Data Visualization
+      Big Data
+        SQL
+        Data Pipelines
+    Full Stack
+      Frontend
+        React
+        TypeScript
+        Next.js
+      Backend
+        Python
+        APIs
+        Databases
+    MLOps
+      Git
+      MLflow
+      CI/CD
+```
 
 ## 📊 GitHub Statistics
 
