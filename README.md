@@ -2,14 +2,16 @@
 <h3 align="center">Data Scientist & AI/ML Engineer</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=1000&center=true&vCenter=true&width=435&lines=Data+Scientist;Machine+Learning+Engineer;Deep+Learning+Specialist;AI+Researcher" alt="Typing SVG" />
+  <img src="https://komarev.com/ghpv/?username=Kedhareswer&style=flat-square&color=blue" alt="Profile Views"/>
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=1000&center=true&vCenter=true&width=435&lines=Data+Scientist;Machine+Learning+Engineer;Deep+Learning+Specialist;AI+Developer" alt="Typing SVG" />
 </p>
 
 <div align="center">
-  
   [![Portfolio](https://img.shields.io/badge/Portfolio-00C7B7?style=for-the-badge&logo=vercel&logoColor=white)](https://naa-peru.vercel.app/)
   [![GitHub Repositories](https://img.shields.io/badge/Repositories-58-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Kedhareswer?tab=repositories)
-  
 </div>
 
 ## 🧠 Featured Projects
@@ -17,28 +19,26 @@
 ### 🔬 AI & Machine Learning
 | Project | Description | Tech Stack | Status |
 |---------|-------------|------------|---------|
-| [ML_Projects](https://github.com/Kedhareswer/ML_Projects) | Comprehensive collection of ML experiments and research | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white) | ![Stars](https://img.shields.io/github/stars/Kedhareswer/ML_Projects) |
-| [Endoscopy-Image-Enhancement](https://github.com/Kedhareswer/Endoscopy-Image-Enhancement) | Medical imaging enhancement using deep learning | ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white) | [![Live](https://img.shields.io/badge/Live-00C853?style=flat&logo=vercel&logoColor=white)](https://endoscopy-image-enhancement.onrender.com) |
+| [ML_Projects](https://github.com/Kedhareswer/ML_Projects) | Collection of Jupyter notebooks covering various ML experiments and research | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white) | Active |
+| [MLGeneFunction](https://github.com/Kedhareswer/MLGeneFunction) | Machine learning approach for gene function prediction | ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) | Active |
 
 ### 🤖 LLM & RAG Applications
-| Project | Description | Tech Stack | Demo |
-|---------|-------------|------------|------|
-| [QuantumPDF_ChatApp](https://github.com/Kedhareswer/QuantumPDF_ChatApp) | Advanced RAG-based PDF analysis with multiple LLM support | ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black) ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white) | [![Live Demo](https://img.shields.io/badge/Live-Demo-success)](https://v0-rag-pdf-chatbot-eight.vercel.app) |
-| [platform-prompt-alchemy-lab](https://github.com/Kedhareswer/platform-prompt-alchemy-lab) | AI prompt engineering & optimization platform | ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) | [![Live Demo](https://img.shields.io/badge/Live-Demo-success)](https://prompt-enhancer-hazel.vercel.app) |
-| [RAG_HuggingFace](https://github.com/Kedhareswer/RAG_HuggingFace) | RAG implementation with Hugging Face models | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black) | Private |
-
-
-### 🌐 Web Applications
-| Project | Description | Tech Stack | Demo |
-|---------|-------------|------------|------|
-| [NaaPeru](https://github.com/Kedhareswer/NaaPeru) | Professional portfolio website | ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) | [![Portfolio](https://img.shields.io/badge/View-Portfolio-blue)](https://naa-peru.vercel.app) |
-| [interactive-periodic-table](https://github.com/Kedhareswer/interactive-periodic-table) | Interactive periodic table visualization | ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) | [![Live Demo](https://img.shields.io/badge/Live-Demo-success)](https://v0-interactive-periodic-table-rose.vercel.app) |
-| [Voice_Search](https://github.com/Kedhareswer/Voice_Search) | Voice-enabled search interface | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black) | In Development |
-
-### 🔧 Developer Tools
 | Project | Description | Tech Stack | Status |
 |---------|-------------|------------|---------|
-| [Synth_Data_Generator](https://github.com/Kedhareswer/Synth_Data_Generator) | Synthetic data generation tool | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) | Private |
+| [QuantumPDF_ChatApp](https://github.com/Kedhareswer/QuantumPDF_ChatApp) | Advanced RAG-based PDF analysis platform with multi-LLM support | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black) | Active |
+| [platform-prompt-alchemy-lab](https://github.com/Kedhareswer/platform-prompt-alchemy-lab) | AI prompt engineering platform with advanced techniques | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black) ![TailwindCSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat&logo=tailwind-css&logoColor=white) | Active |
+
+### 📊 Data Science & Analytics
+| Project | Description | Tech Stack | Status |
+|---------|-------------|------------|---------|
+| [Data_Science_Platform](https://github.com/Kedhareswer/Data_Science_Platform) | Modern data analysis platform with interactive notebook interface | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black) | Active |
+| [ai-project-planner](https://github.com/Kedhareswer/ai-project-planner) | AI-powered project planning and management tool | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) | Active |
+
+### 🌐 Web Applications
+| Project | Description | Tech Stack | Status |
+|---------|-------------|------------|---------|
+| [NaaPeru](https://github.com/Kedhareswer/NaaPeru) | Professional portfolio website with modern design | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white) | Active |
+| [My_Portfolio_Designs](https://github.com/Kedhareswer/My_Portfolio_Designs) | Collection of portfolio design variations | ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black) | Active |
 
 ## 💻 Technical Skills
 
@@ -107,14 +107,14 @@ mindmap
 ## 📊 GitHub Statistics
 
 <div align="center">
+  <p>
+    <img src="https://github-profile-trophy.vercel.app/?username=Kedhareswer&theme=tokyonight&no-frame=true&row=1&&margin-w=30&no-bg=true" alt="GitHub Trophies"/>
+  </p>
+  
   <img src="https://github-readme-stats.vercel.app/api?username=Kedhareswer&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
-</div>
-
-<div align="center">
+  
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Kedhareswer&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-</div>
-
-<div align="center">
+  
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kedhareswer&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" />
 </div>
 
@@ -124,6 +124,10 @@ mindmap
 - Computer Vision Applications
 - Prompt Engineering & Optimization
 - Full-Stack AI Applications
+- Data Platform Development
+- AI Project Management
+- Gene Function Prediction
+- Interactive Data Visualization
 
 ## 🤝 Let's Connect
 [![Portfolio](https://img.shields.io/badge/Portfolio-00C7B7?style=for-the-badge&logo=vercel&logoColor=white)](https://naa-peru.vercel.app/)
@@ -139,6 +143,6 @@ mindmap
 ⭐ From [Kedhareswer](https://github.com/Kedhareswer)
 </div>
 
-> Last Updated: 2025-06-06 20:19:37 UTC
+> Last Updated: 2025-06-18 03:22:30 UTC
 
-> Note: View all 58 repositories on my [GitHub profile](https://github.com/Kedhareswer?tab=repositories)
+> Note: View all repositories on my [GitHub profile](https://github.com/Kedhareswer?tab=repositories)
