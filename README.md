@@ -78,44 +78,6 @@
   <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code"/>
 </p>
 
-## 🗺️ Skills Map
-
-```mermaid
-mindmap
-  root((AI/ML Engineer))
-    Machine Learning
-      Deep Learning
-        PyTorch
-        TensorFlow
-        Computer Vision
-        NLP
-      Classical ML
-        scikit-learn
-        Statistical Analysis
-        Feature Engineering
-    Data Science
-      Data Analysis
-        Pandas
-        NumPy
-        Data Visualization
-      Big Data
-        SQL
-        Data Pipelines
-    Full Stack
-      Frontend
-        React
-        TypeScript
-        Next.js
-      Backend
-        Python
-        APIs
-        Databases
-    MLOps
-      Git
-      MLflow
-      CI/CD
-```
-
 ## 📊 GitHub Statistics
 
 <p align="center">
@@ -137,13 +99,7 @@ mindmap
 ## 🔬 Research Interests
 - Deep Learning in Medical Imaging
 - Large Language Models & RAG Systems
-- Computer Vision Applications
 - Prompt Engineering & Optimization
-- Full-Stack AI Applications
-- Data Platform Development
-- AI Project Management
-- Gene Function Prediction
-- Interactive Data Visualization
 
 ## 🤝 Let's Connect
 <p align="left">
