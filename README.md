@@ -12,7 +12,7 @@
     <img src="https://img.shields.io/badge/Portfolio-00C7B7?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/>
   </a>
   <a href="https://github.com/Kedhareswer?tab=repositories">
-    <img src="https://img.shields.io/badge/Repositories-58-blue?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repositories"/>
+    <img src="https://img.shields.io/badge/Repositories-100-blue?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repositories"/>
   </a>
 </div>
 
