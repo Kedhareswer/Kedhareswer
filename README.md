@@ -1,130 +1,230 @@
-<h1 align="center">Hi 👋, I'm Kedhareswer</h1>
-<h3 align="center">Data Scientist & AI/ML Engineer</h3>
-
-<p align="center">
-  <a href="#">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=1000&center=true&vCenter=true&width=435&lines=Data+Scientist;Machine+Learning+Engineer;Deep+Learning+Specialist;AI+Developer" alt="Typing SVG"/>
-  </a>
-</p>
-
 <div align="center">
-  <a href="https://naa-peru.vercel.app/">
-    <img src="https://img.shields.io/badge/Portfolio-00C7B7?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/>
-  </a>
-  <a href="https://github.com/Kedhareswer?tab=repositories">
-    <img src="https://img.shields.io/badge/Repositories-100-blue?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repositories"/>
-  </a>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24,32&height=180&section=header&text=Kedhareswer&fontSize=42&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=Data%20Scientist%20%26%20AI%20Engineer&descAlignY=55&descAlign=62&descSize=16"/>
+
+<p>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=18&duration=2800&pause=1200&color=6C63FF&center=true&vCenter=true&width=500&lines=🚀+Crafting+Intelligence+with+Code;🌟+Building+Tomorrow's+AI+Solutions;⚡+Transforming+Data+into+Impact" alt="Typing Animation"/>
+</p>
+
+**Welcome to my Digital Universe**
+
+<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="400">
+
+[**Explore Portfolio**](https://naa-peru.vercel.app/) • [**View Projects**](https://github.com/Kedhareswer?tab=repositories) • [**Kaggle Profile**](https://www.kaggle.com/kedhareswernaidu)
+
 </div>
+<div align="center">
+<img src="https://komarev.com/ghpvc/?username=Kedhareswer&label=Profile%20Views&color=6C63FF&style=flat"/>
+</div>
+<img align="right" alt="AI Developer" width="300" src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif">
 
-<br>
 
-## 🧠 Featured Projects
+### **🤖 AI & Machine Learning**
+**[ML_Projects](https://github.com/Kedhareswer/ML_Projects)**  
+*Advanced machine learning research and experimentation hub*
 
-### 🔬 AI & Machine Learning
-| Project | Description | Tech Stack | Status |
-|---------|-------------|------------|---------|
-| [ML_Projects](https://github.com/Kedhareswer/ML_Projects) | Collection of Jupyter notebooks covering various ML experiments and research | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white) | Active |
-| [MLGeneFunction](https://github.com/Kedhareswer/MLGeneFunction) | Machine learning approach for gene function prediction | ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) | Active |
+**[MLGeneFunction](https://github.com/Kedhareswer/MLGeneFunction)**  
+*Deep learning for gene function prediction and genomic analysis*
 
-### 🤖 LLM & RAG Applications
-| Project | Description | Tech Stack | Status |
-|---------|-------------|------------|---------|
-| [QuantumPDF_ChatApp](https://github.com/Kedhareswer/QuantumPDF_ChatApp) | Advanced RAG-based PDF analysis platform with multi-LLM support | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black) | Active |
-| [platform-prompt-alchemy-lab](https://github.com/Kedhareswer/platform-prompt-alchemy-lab) | AI prompt engineering platform with advanced techniques | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black) ![TailwindCSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat&logo=tailwind-css&logoColor=white) | Active |
+### **🧠 LLM & RAG Ecosystem**  
+**[QuantumPDF_ChatApp](https://github.com/Kedhareswer/QuantumPDF_ChatApp)**  
+*Next-generation RAG platform with multi-LLM intelligence*
 
-### 📊 Data Science & Analytics
-| Project | Description | Tech Stack | Status |
-|---------|-------------|------------|---------|
-| [Data_Science_Platform](https://github.com/Kedhareswer/Data_Science_Platform) | Modern data analysis platform with interactive notebook interface | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black) | Active |
-| [ai-project-planner](https://github.com/Kedhareswer/ai-project-planner) | AI-powered project planning and management tool | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) | Active |
+**[platform-prompt-alchemy-lab](https://github.com/Kedhareswer/platform-prompt-alchemy-lab)**  
+*Advanced prompt engineering and optimization laboratory*
 
-### 🌐 Web Applications
-| Project | Description | Tech Stack | Status |
-|---------|-------------|------------|---------|
-| [NaaPeru](https://github.com/Kedhareswer/NaaPeru) | Professional portfolio website with modern design | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white) | Active |
-| [My_Portfolio_Designs](https://github.com/Kedhareswer/My_Portfolio_Designs) | Collection of portfolio design variations | ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black) | Active |
+### **📊 Data Intelligence Platforms**
+**[Data_Science_Platform](https://github.com/Kedhareswer/Data_Science_Platform)**  
+*Interactive data analysis and visualization engine*
 
-## 💻 Technical Skills
+**[ai-project-planner](https://github.com/Kedhareswer/ai-project-planner)**  
+*AI-powered project management and planning system*
 
-### Machine Learning & AI
-<p align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch"/>
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow"/>
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="scikit-learn"/>
-  <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="HuggingFace"/>
-</p>
-
-### Data Science
-<p align="left">
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"/>
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy"/>
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter"/>
-  <img src="https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white" alt="SciPy"/>
-</p>
-
-### Web Development
-<p align="left">
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React"/>
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js"/>
-  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="TailwindCSS"/>
-</p>
-
-### DevOps & Tools
-<p align="left">
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
-  <img src="https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white" alt="MLflow"/>
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code"/>
-</p>
-
-## 📊 GitHub Statistics
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Kedhareswer&theme=tokyonight&no-frame=true&row=1&&margin-w=30&no-bg=true" alt="GitHub Trophies"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Kedhareswer&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Kedhareswer&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kedhareswer&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages"/>
-</p>
-
-## 🔬 Research Interests
-- Deep Learning in Medical Imaging
-- Large Language Models & RAG Systems
-- Prompt Engineering & Optimization
-
-## 🤝 Let's Connect
-<p align="left">
-  <a href="https://naa-peru.vercel.app/">
-    <img src="https://img.shields.io/badge/Portfolio-00C7B7?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/>
-  </a>
-  <a href="https://linkedin.com/in/YOUR_LINKEDIN">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="https://github.com/Kedhareswer">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
-  <a href="https://www.kaggle.com/kedhareswernaidu">
-    <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle"/>
-  </a>
-</p>
+<br clear="right"/>
 
 ---
-<div align="center">
-  
-📫 **Contact:** For collaboration on AI/ML projects or research opportunities, reach out via [Portfolio](https://naa-peru.vercel.app/) or [LinkedIn](https://linkedin.com/in/YOUR_LINKEDIN)
 
-⭐ From [Kedhareswer](https://github.com/Kedhareswer)
+<div align="center">
+
+## 🛠️ Technology Arsenal
+
+<br/>
+
+<table>
+<tr>
+<td align="center" width="100">
+<img width="50" height="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python"/>
+<br/><strong>Python</strong>
+</td>
+<td align="center" width="100">
+<img width="50" height="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" alt="PyTorch"/>
+<br/><strong>PyTorch</strong>
+</td>
+<td align="center" width="100">
+<img width="50" height="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow"/>
+<br/><strong>TensorFlow</strong>
+</td>
+<td align="center" width="100">
+<img width="50" height="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript"/>
+<br/><strong>TypeScript</strong>
+</td>
+<td align="center" width="100">
+<img width="50" height="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React"/>
+<br/><strong>React</strong>
+</td>
+<td align="center" width="100">
+<img width="50" height="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt="Next.js"/>
+<br/><strong>Next.js</strong>
+</td>
+</tr>
+</table>
+
+**Machine Learning** • **Data Science** • **Full-Stack Development** • **Cloud Computing**
+
 </div>
 
-> Last Updated: 2025-06-18 03:28:55 UTC
+---
 
-> Note: View all repositories on my [GitHub profile](https://github.com/Kedhareswer?tab=repositories)
+<div align="center">
+
+## 📊 Performance Analytics
+
+<br/>
+
+### 🏆 **GitHub Achievements**
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Kedhareswer&theme=tokyonight&no-frame=true&row=1&column=7&margin-w=10&margin-h=10" alt="GitHub Trophies"/>
+</p>
+
+### 📈 **Contribution Stats**
+<table>
+<tr>
+<td align="center">
+<img width="400" src="https://github-readme-stats.vercel.app/api?username=Kedhareswer&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&icon_color=6C63FF&text_color=FFFFFF&count_private=true&include_all_commits=true"/>
+</td>
+<td align="center">
+<img width="400" src="https://github-readme-streak-stats.herokuapp.com/?user=Kedhareswer&theme=tokyonight&hide_border=true&background=0D1117&stroke=6C63FF&ring=6C63FF&fire=FF6B35&currStreakLabel=6C63FF"/>
+</td>
+</tr>
+</table>
+
+### 💻 **Language Distribution**
+<p align="center">
+  <img width="600" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kedhareswer&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&text_color=FFFFFF&langs_count=8&card_width=600"/>
+</p>
+
+### 📊 **Contribution Activity**
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Kedhareswer&bg_color=0d1117&color=6C63FF&line=6C63FF&point=ff6b35&area=true&hide_border=true&custom_title=Contribution%20Graph" width="800"/>
+</p>
+
+### 📈 **GitHub Metrics**
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Kedhareswer&theme=tokyonight" width="800"/>
+</p>
+
+<table>
+<tr>
+<td align="center">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Kedhareswer&theme=tokyonight" width="400"/>
+</td>
+<td align="center">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Kedhareswer&theme=tokyonight" width="400"/>
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td align="center">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Kedhareswer&theme=tokyonight" width="400"/>
+</td>
+<td align="center">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Kedhareswer&theme=tokyonight&utcOffset=5.5" width="400"/>
+</td>
+</tr>
+</table>
+
+</div>
+
+---
+
+<div align="center">
+
+## 🌌 Research Universe
+
+<br/>
+
+</div>
+
+<table>
+<tr>
+<td width="25%" align="center">
+
+### 🏥 Medical AI
+
+<br/>
+
+Deep learning applications in healthcare and medical imaging analysis
+
+</td>
+<td width="25%" align="center">
+
+### 🧬 Bioinformatics  
+
+<br/>
+
+Gene function prediction and genomic data analysis using ML
+
+</td>
+<td width="25%" align="center">
+
+### 🤖 LLM Systems
+
+<br/>
+
+Advanced RAG architectures and prompt optimization techniques
+
+</td>
+<td width="25%" align="center">
+
+### ⚡ MLOps
+
+<br/>
+
+Scalable ML pipeline design and intelligent deployment strategies
+
+</td>
+</tr>
+</table>
+
+---
+
+<div align="center">
+
+## 🌟 Connect & Collaborate
+
+<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="50">
+
+**"Where Data Science Meets Innovation"**
+
+*Passionate about creating AI solutions that bridge complex data with real-world impact*
+
+<p>
+<a href="https://naa-peru.vercel.app/">
+<img src="https://img.shields.io/badge/🌐_Portfolio-6C63FF?style=for-the-badge&logoColor=white&labelColor=1a1a1a"/>
+</a>
+<a href="https://linkedin.com/in/YOUR_LINKEDIN">
+<img src="https://img.shields.io/badge/💼_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1a1a1a"/>
+</a>
+<a href="https://www.kaggle.com/kedhareswernaidu">
+<img src="https://img.shields.io/badge/🏆_Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white&labelColor=1a1a1a"/>
+</a>
+</p>
+
+**Open to collaboration on groundbreaking AI research and innovative projects**
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24,32&height=100&section=footer&animation=twinkling"/>
+</div>
