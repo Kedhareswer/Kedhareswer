@@ -1,6 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24,32&height=180&section=header&text=Kedhareswer&fontSize=42&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=Data%20Scientist%20%26%20AI%20Engineer&descAlignY=55&descAlign=62&descSize=16"/>
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=42&pause=1000&color=6C63FF&center=true&vCenter=true&width=600&lines=Kedhareswer;Data+Scientist;ML+Engineer" alt="Typing SVG" />
+</p>
 
 <p>
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=18&duration=2800&pause=1200&color=6C63FF&center=true&vCenter=true&width=500&lines=🚀+Crafting+Intelligence+with+Code;🌟+Building+Tomorrow's+AI+Solutions;⚡+Transforming+Data+into+Impact" alt="Typing Animation"/>
