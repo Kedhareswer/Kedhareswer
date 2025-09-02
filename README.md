@@ -8,7 +8,7 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=18&duration=2800&pause=1200&color=6C63FF&center=true&vCenter=true&width=500&lines=🚀+Crafting+Intelligence+with+Code;🌟+Building+Tomorrow's+AI+Solutions;⚡+Transforming+Data+into+Impact" alt="Typing Animation"/>
 </p>
 
-**Welcome to my Digital Universe**
+**Welcome to my Universe**
 
 <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="400">
 
@@ -153,7 +153,7 @@
 
 <div align="center">
 
-## 🌌 Research Universe
+## 🌌 Research Interests
 
 <br/>
 
