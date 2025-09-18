@@ -10,7 +10,7 @@
 
 **Welcome to my Universe**
 
-<img align="right" alt="AI Developer" width="300" src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif">
+<img alt="AI Developer" width="300" src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif">
 
 [**Explore Portfolio**](https://naa-peru.vercel.app/) • [**View Projects**](https://github.com/Kedhareswer?tab=repositories) • [**Kaggle Profile**](https://www.kaggle.com/kedhareswernaidu)
 
@@ -20,30 +20,15 @@
 </div>
 
 
-### **🤖 AI & Machine Learning**
-**[ML_Projects](https://github.com/Kedhareswer/ML_Projects)**  
-*Advanced machine learning research and experimentation hub*
+<div align="center">
+  
+| Category | Projects |
+|----------|----------|
+| **🤖 AI & Machine Learning** | - [ML_Projects](https://github.com/Kedhareswer/ML_Projects) <br> *Advanced machine learning research and experimentation hub* <br><br> - [MLGeneFunction](https://github.com/Kedhareswer/MLGeneFunction) <br> *Deep learning for gene function prediction and genomic analysis* |
+| **🧠 LLM & RAG Ecosystem** | - [QuantumPDF_ChatApp](https://github.com/Kedhareswer/QuantumPDF_ChatApp) <br> *Next-generation RAG platform with multi-LLM intelligence* <br><br> - [platform-prompt-alchemy-lab](https://github.com/Kedhareswer/platform-prompt-alchemy-lab) <br> *Advanced prompt engineering and optimization laboratory* |
+| **📊 Data Intelligence Platforms** | - [Data_Science_Platform](https://github.com/Kedhareswer/Data_Science_Platform) <br> *Interactive data analysis and visualization engine* <br><br> - [ai-project-planner](https://github.com/Kedhareswer/ai-project-planner) <br> *AI-powered project management and planning system* |
 
-**[MLGeneFunction](https://github.com/Kedhareswer/MLGeneFunction)**  
-*Deep learning for gene function prediction and genomic analysis*
-
-### **🧠 LLM & RAG Ecosystem**  
-**[QuantumPDF_ChatApp](https://github.com/Kedhareswer/QuantumPDF_ChatApp)**  
-*Next-generation RAG platform with multi-LLM intelligence*
-
-**[platform-prompt-alchemy-lab](https://github.com/Kedhareswer/platform-prompt-alchemy-lab)**  
-*Advanced prompt engineering and optimization laboratory*
-
-### **📊 Data Intelligence Platforms**
-**[Data_Science_Platform](https://github.com/Kedhareswer/Data_Science_Platform)**  
-*Interactive data analysis and visualization engine*
-
-**[ai-project-planner](https://github.com/Kedhareswer/ai-project-planner)**  
-*AI-powered project management and planning system*
-
-<br clear="right"/>
-
----
+</div>
 
 <div align="center">
 
@@ -84,7 +69,6 @@
 
 </div>
 
----
 
 <div align="center">
 
@@ -215,7 +199,7 @@ Scalable ML pipeline design and intelligent deployment strategies
 <a href="https://naa-peru.vercel.app/">
 <img src="https://img.shields.io/badge/🌐_Portfolio-6C63FF?style=for-the-badge&logoColor=white&labelColor=1a1a1a"/>
 </a>
-<a href="https://linkedin.com/in/YOUR_LINKEDIN">
+<a href="https://linkedin.com/in/kedhareswernaidu">
 <img src="https://img.shields.io/badge/💼_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1a1a1a"/>
 </a>
 <a href="https://www.kaggle.com/kedhareswernaidu">
