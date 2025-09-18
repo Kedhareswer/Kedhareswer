@@ -10,7 +10,7 @@
 
 **Welcome to my Universe**
 
-<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="400">
+<img align="right" alt="AI Developer" width="300" src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif">
 
 [**Explore Portfolio**](https://naa-peru.vercel.app/) • [**View Projects**](https://github.com/Kedhareswer?tab=repositories) • [**Kaggle Profile**](https://www.kaggle.com/kedhareswernaidu)
 
@@ -18,7 +18,6 @@
 <div align="center">
 <img src="https://komarev.com/ghpvc/?username=Kedhareswer&label=Profile%20Views&color=6C63FF&style=flat"/>
 </div>
-<img align="right" alt="AI Developer" width="300" src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif">
 
 
 ### **🤖 AI & Machine Learning**
