@@ -76,6 +76,8 @@
 
 <br/>
 
+[![An image of @kedhareswer's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/kedhareswer)](https://holopin.io/@kedhareswer)
+
 ### 🏆 **GitHub Achievements**
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=Kedhareswer&theme=tokyonight&no-frame=true&row=1&column=7&margin-w=10&margin-h=10" alt="GitHub Trophies"/>
