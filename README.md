@@ -1,35 +1,28 @@
 <div align="center">
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=42&pause=1000&color=6C63FF&center=true&vCenter=true&width=600&lines=Kedhareswer;Data+Scientist;ML+Engineer" alt="Typing SVG" />
+**I Gladly Welcome You**
+
+<div style="display:flex; justify-content:space-between; align-items:center; gap:2rem; width:100%; flex-wrap:wrap; margin:1.5rem 0;">
+  <div style="flex:1; min-width:260px; text-align:left; display:flex; flex-direction:column; gap:1rem;">
+    <span style="display:inline-block; padding:0.25rem 0.75rem; border-radius:999px; background:rgba(255,0,0,0.12); color:#FF0000; font-family:'Fira Code', monospace; font-size:0.75rem; font-weight:600; letter-spacing:0.05em; width:max-content;">Profile Views: <span style="font-weight:700;">694</span></span>
+    <h1 style="margin:0; font-size:2.5rem; color:#FF0000; font-family:'Fira Code', monospace;">Kedhareswer</h1>
+    <h2 style="margin:0; font-size:1.35rem; color:#FF0000; font-family:'Fira Code', monospace;">GEN AI / DEVELOPER / DATA ENGINEER </h2>
+    <p style="margin:0; font-size:1rem; color:#f2f2f2; font-family:'Fira Code', monospace;">I design and build <strong>intelligent systems</strong> and <strong>human-centered interfaces</strong>, crafting intelligence with code, building tomorrow's AI solutions, and transforming data into impact.</p>
+  </div>
+  <div style="flex:1; min-width:260px; display:flex; justify-content:flex-end;">
+    <img src="./Assests/me.png" alt="Kedhareswer working on creative AI projects" style="width:320px; height:520px; max-width:100%; border-radius:20px; object-fit:cover; object-position:center 55%; box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.35);" />
+  </div>
+</div>
+
+<p style="margin:0; font-size:1rem; font-family:'Fira Code', monospace;">
+  <a href="https://naa-peru.vercel.app/" style="color:#FF0000; text-decoration:none; font-weight:600;">Explore Portfolio</a>
+  •
+  <a href="https://github.com/Kedhareswer?tab=repositories" style="color:#FF0000; text-decoration:none; font-weight:600;">View Projects</a>
+  •
+  <a href="https://www.kaggle.com/kedhareswernaidu" style="color:#FF0000; text-decoration:none; font-weight:600;">Kaggle Profile</a>
 </p>
 
-<p>
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=18&duration=2800&pause=1200&color=6C63FF&center=true&vCenter=true&width=500&lines=🚀+Crafting+Intelligence+with+Code;🌟+Building+Tomorrow's+AI+Solutions;⚡+Transforming+Data+into+Impact" alt="Typing Animation"/>
-</p>
-
-**Welcome to my Universe**
-
-<img alt="AI Developer" width="300" src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif">
-
-[**Explore Portfolio**](https://naa-peru.vercel.app/) • [**View Projects**](https://github.com/Kedhareswer?tab=repositories) • [**Kaggle Profile**](https://www.kaggle.com/kedhareswernaidu)
-
 </div>
-<div align="center">
-<img src="https://komarev.com/ghpvc/?username=Kedhareswer&label=Profile%20Views&color=6C63FF&style=flat"/>
-</div>
-
-
-<div align="center">
-  
-| Category | Projects |
-|----------|----------|
-| **🤖 AI & Machine Learning** | - [ML_Projects](https://github.com/Kedhareswer/ML_Projects) <br> *Advanced machine learning research and experimentation hub* <br><br> - [MLGeneFunction](https://github.com/Kedhareswer/MLGeneFunction) <br> *Deep learning for gene function prediction and genomic analysis* |
-| **🧠 LLM & RAG Ecosystem** | - [QuantumPDF_ChatApp](https://github.com/Kedhareswer/QuantumPDF_ChatApp) <br> *Next-generation RAG platform with multi-LLM intelligence* <br><br> - [platform-prompt-alchemy-lab](https://github.com/Kedhareswer/platform-prompt-alchemy-lab) <br> *Advanced prompt engineering and optimization laboratory* |
-| **📊 Data Intelligence Platforms** | - [Data_Science_Platform](https://github.com/Kedhareswer/Data_Science_Platform) <br> *Interactive data analysis and visualization engine* <br><br> - [ai-project-planner](https://github.com/Kedhareswer/ai-project-planner) <br> *AI-powered project management and planning system* |
-
-</div>
-
 <div align="center">
 
 ## 🛠️ Technology Arsenal
@@ -87,47 +80,10 @@
 <table>
 <tr>
 <td align="center">
-<img width="400" src="https://github-readme-stats.vercel.app/api?username=Kedhareswer&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&icon_color=6C63FF&text_color=FFFFFF&count_private=true&include_all_commits=true"/>
+<img width="400" src="https://github-readme-stats.vercel.app/api?username=Kedhareswer&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=FF0000&icon_color=FF0000&text_color=FFFFFF&count_private=true&include_all_commits=true"/>
 </td>
 <td align="center">
-<img width="400" src="https://github-readme-streak-stats.herokuapp.com/?user=Kedhareswer&theme=tokyonight&hide_border=true&background=0D1117&stroke=6C63FF&ring=6C63FF&fire=FF6B35&currStreakLabel=6C63FF"/>
-</td>
-</tr>
-</table>
-
-### 💻 **Language Distribution**
-<p align="center">
-  <img width="600" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kedhareswer&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&text_color=FFFFFF&langs_count=8&card_width=600"/>
-</p>
-
-### 📊 **Contribution Activity**
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Kedhareswer&bg_color=0d1117&color=6C63FF&line=6C63FF&point=ff6b35&area=true&hide_border=true&custom_title=Contribution%20Graph" width="800"/>
-</p>
-
-### 📈 **GitHub Metrics**
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Kedhareswer&theme=tokyonight" width="800"/>
-</p>
-
-<table>
-<tr>
-<td align="center">
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Kedhareswer&theme=tokyonight" width="400"/>
-</td>
-<td align="center">
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Kedhareswer&theme=tokyonight" width="400"/>
-</td>
-</tr>
-</table>
-
-<table>
-<tr>
-<td align="center">
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Kedhareswer&theme=tokyonight" width="400"/>
-</td>
-<td align="center">
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Kedhareswer&theme=tokyonight&utcOffset=5.5" width="400"/>
+<img width="400" src="https://github-readme-streak-stats.herokuapp.com/?user=Kedhareswer&theme=tokyonight&hide_border=true&background=0D1117&stroke=FF0000&ring=FF0000&fire=FF6B35&currStreakLabel=FF0000"/>
 </td>
 </tr>
 </table>
@@ -138,52 +94,15 @@
 
 <div align="center">
 
-## 🌌 Research Interests
+## Research Interests
 
 <br/>
 
 </div>
 
-<table>
-<tr>
-<td width="25%" align="center">
-
-### 🏥 Medical AI
-
-<br/>
-
-Deep learning applications in healthcare and medical imaging analysis
-
-</td>
-<td width="25%" align="center">
-
-### 🧬 Bioinformatics  
-
-<br/>
-
-Gene function prediction and genomic data analysis using ML
-
-</td>
-<td width="25%" align="center">
-
-### 🤖 LLM Systems
-
-<br/>
-
-Advanced RAG architectures and prompt optimization techniques
-
-</td>
-<td width="25%" align="center">
-
-### ⚡ MLOps
-
-<br/>
-
-Scalable ML pipeline design and intelligent deployment strategies
-
-</td>
-</tr>
-</table>
+| Medical AI | Bioinformatics | LLM Systems | MLOps |
+| --- | --- | --- | --- |
+| Deep learning applications in healthcare and medical imaging analysis | Gene function prediction and genomic data analysis using ML | Advanced RAG architectures and prompt optimization techniques | Scalable ML pipeline design and intelligent deployment strategies |
 
 ---
 
@@ -191,7 +110,7 @@ Scalable ML pipeline design and intelligent deployment strategies
 
 ## 🌟 Connect & Collaborate
 
-<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="50">
+<img src="./Assests/elements4.png" width="160" alt="Collaborative illustration"/>
 
 **"Where Data Science Meets Innovation"**
 
@@ -199,7 +118,7 @@ Scalable ML pipeline design and intelligent deployment strategies
 
 <p>
 <a href="https://naa-peru.vercel.app/">
-<img src="https://img.shields.io/badge/🌐_Portfolio-6C63FF?style=for-the-badge&logoColor=white&labelColor=1a1a1a"/>
+<img src="https://img.shields.io/badge/🌐_Portfolio-FF0000?style=for-the-badge&logoColor=white&labelColor=1a1a1a"/>
 </a>
 <a href="https://linkedin.com/in/kedhareswernaidu">
 <img src="https://img.shields.io/badge/💼_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1a1a1a"/>
