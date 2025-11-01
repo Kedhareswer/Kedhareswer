@@ -19,14 +19,18 @@ I design and build <strong>intelligent systems</strong> and <strong>human-center
 </td>
 <td align="right" width="40%">
 
-<img src="./Assests/me.png" alt="Kedhareswer working on creative AI projects" width="280" style="border-radius:20px;" />
+<img src="./Assests/me.png" alt="Kedhareswer working on creative AI projects" width="260" height="420" style="border-radius:20px; object-fit:cover; object-position:center 20%;" />
 
 </td>
 </tr>
 </table>
 
 <p align="center">
-[Explore Portfolio](https://naa-peru.vercel.app/) • [View Projects](https://github.com/Kedhareswer?tab=repositories) • [Kaggle Profile](https://www.kaggle.com/kedhareswernaidu)
+  <a href="https://naa-peru.vercel.app/" style="color:#FF0000; font-weight:600; text-decoration:none;">Explore Portfolio</a>
+  •
+  <a href="https://github.com/Kedhareswer?tab=repositories" style="color:#FF0000; font-weight:600; text-decoration:none;">View Projects</a>
+  •
+  <a href="https://www.kaggle.com/kedhareswernaidu" style="color:#FF0000; font-weight:600; text-decoration:none;">Kaggle Profile</a>
 </p>
 
 <div align="center">
