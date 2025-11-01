@@ -1,28 +1,34 @@
-<div align="center" style="font-family:'Inter', sans-serif;">
+<div align="center">
 
 **I Gladly Welcome You**
 
-<div style="display:flex; justify-content:space-between; align-items:center; gap:2rem; width:100%; flex-wrap:wrap; margin:1.5rem 0;">
-  <div style="flex:1; min-width:260px; text-align:left; display:flex; flex-direction:column; gap:1rem; font-family:'Inter', sans-serif;">
-    <span style="display:inline-block; padding:0.25rem 0.75rem; border-radius:999px; background:rgba(255,0,0,0.12); color:#FF0000; font-family:'Inter', sans-serif; font-size:0.75rem; font-weight:600; letter-spacing:0.05em; width:max-content;">Profile Views: <span style="font-weight:700;">694</span></span>
-    <h1 style="margin:0; font-size:2.5rem; color:#FF0000; font-family:'Space Grotesk', 'Inter', sans-serif;">Kedhareswer</h1>
-    <h2 style="margin:0; font-size:1.35rem; color:#FF0000; font-family:'Space Grotesk', 'Inter', sans-serif; letter-spacing:0.08em;">GEN AI / DEVELOPER / DATA ENGINEER</h2>
-    <p style="margin:0; font-size:1rem; color:#f2f2f2; font-family:'Inter', sans-serif; line-height:1.6;">I design and build <strong>intelligent systems</strong> and <strong>human-centered interfaces</strong>, crafting intelligence with code, building tomorrow's AI solutions, and transforming data into impact.</p>
-  </div>
-  <div style="flex:1; min-width:260px; display:flex; justify-content:flex-end;">
-    <img src="./Assests/me.png" alt="Kedhareswer working on creative AI projects" style="width:320px; height:520px; max-width:100%; border-radius:20px; object-fit:cover; object-position:center 55%; box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.35);" />
-  </div>
 </div>
 
-<p style="margin:0; font-size:1rem; font-family:'Inter', sans-serif; font-weight:600; letter-spacing:0.04em;">
-  <a href="https://naa-peru.vercel.app/" style="color:#FF0000; text-decoration:none; font-weight:600;">Explore Portfolio</a>
-  •
-  <a href="https://github.com/Kedhareswer?tab=repositories" style="color:#FF0000; text-decoration:none; font-weight:600;">View Projects</a>
-  •
-  <a href="https://www.kaggle.com/kedhareswernaidu" style="color:#FF0000; text-decoration:none; font-weight:600;">Kaggle Profile</a>
+<table>
+<tr>
+<td align="left" width="60%">
+
+<img src="https://komarev.com/ghpvc/?username=Kedhareswer&label=Profile%20Views&color=FF0000&style=flat" alt="Profile views badge" />
+
+<h2 style="color:#FF0000; margin-bottom:0.2rem;">Kedhareswer</h2>
+<h4 style="color:#FF0000; margin-top:0;">GEN AI / DEVELOPER / DATA ENGINEER</h4>
+<p>
+I design and build <strong>intelligent systems</strong> and <strong>human-centered interfaces</strong>, crafting intelligence with code, building tomorrow's AI solutions, and transforming data into impact.
 </p>
 
-</div>
+</td>
+<td align="right" width="40%">
+
+<img src="./Assests/me.png" alt="Kedhareswer working on creative AI projects" width="280" style="border-radius:20px;" />
+
+</td>
+</tr>
+</table>
+
+<p align="center">
+[Explore Portfolio](https://naa-peru.vercel.app/) • [View Projects](https://github.com/Kedhareswer?tab=repositories) • [Kaggle Profile](https://www.kaggle.com/kedhareswernaidu)
+</p>
+
 <div align="center">
 
 ## 🛠️ Technology Arsenal
