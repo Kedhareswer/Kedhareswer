@@ -68,17 +68,17 @@ I design and build <strong>intelligent systems</strong> and <strong>human-center
 
 ### **GitHub Achievements**
 <p>
-  <img src="https://github-profile-trophy.vercel.app/?username=Kedhareswer&theme=tokyonight&no-frame=true&row=1&column=7&margin-w=10&margin-h=10" alt="GitHub Trophies"/>
+  <img src="https://github-trophies.vercel.app/?username=Kedhareswer&theme=tokyonight&no-frame=true&row=1&column=7&margin-w=10&margin-h=10" alt="GitHub Trophies"/>
 </p>
 
 ### **Contribution Stats**
 <table style="border-collapse:collapse;">
 <tr>
 <td style="padding:0.5rem 1rem;">
-<img width="400" src="https://github-readme-stats.vercel.app/api?username=Kedhareswer&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=FF0000&icon_color=FF0000&text_color=FFFFFF&count_private=true&include_all_commits=true"/>
+<img width="400" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Kedhareswer&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=FF0000&icon_color=FF0000&text_color=FFFFFF&count_private=true&include_all_commits=true"/>
 </td>
 <td style="padding:0.5rem 1rem;">
-<img width="400" src="https://github-readme-streak-stats.herokuapp.com/?user=Kedhareswer&theme=tokyonight&hide_border=true&background=0D1117&stroke=FF0000&ring=FF0000&fire=FF6B35&currStreakLabel=FF0000"/>
+<img width="400" src="https://streak-stats.demolab.com?user=Kedhareswer&theme=tokyonight&hide_border=true&background=0D1117&stroke=FF0000&ring=FF0000&fire=FF6B35&currStreakLabel=FF0000"/>
 </td>
 </tr>
 </table>
@@ -122,4 +122,4 @@ I design and build <strong>intelligent systems</strong> and <strong>human-center
 </tr>
 </table>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24,32&height=100&section=footer&animation=twinkling"/>
+<img src="https://capsule-render.vercel.app/api?type=soft&height=70&section=footer&color=0:0D1117,65:1A1A1A,100:FF0000" alt="Red and dark themed footer divider"/>
