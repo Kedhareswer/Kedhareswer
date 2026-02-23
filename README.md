@@ -122,4 +122,6 @@ I design and build <strong>intelligent systems</strong> and <strong>human-center
 </tr>
 </table>
 
-<img src="https://capsule-render.vercel.app/api?type=soft&height=70&section=footer&color=0:0D1117,65:1A1A1A,100:FF0000" alt="Red and dark themed footer divider"/>
+<p align="center">
+  <img src="./Assests/footer-personal.svg" alt="Kedhareswer personalized footer" width="100%" />
+</p>

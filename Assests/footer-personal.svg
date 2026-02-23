@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200" role="img" aria-labelledby="title desc">
+  <title id="title">Abstract personalized footer</title>
+  <desc id="desc">A dark red cinematic gradient footer with layered waves and glow accents.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#070b14" />
+      <stop offset="32%" stop-color="#3b0a10" />
+      <stop offset="65%" stop-color="#8a1622" />
+      <stop offset="100%" stop-color="#0b1220" />
+    </linearGradient>
+    <radialGradient id="glow-left" cx="18%" cy="8%" r="55%">
+      <stop offset="0%" stop-color="#ef4444" stop-opacity="0.32" />
+      <stop offset="55%" stop-color="#ef4444" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#ef4444" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glow-right" cx="86%" cy="22%" r="48%">
+      <stop offset="0%" stop-color="#fca5a5" stop-opacity="0.18" />
+      <stop offset="65%" stop-color="#fca5a5" stop-opacity="0.05" />
+      <stop offset="100%" stop-color="#fca5a5" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="wave-a" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.02" />
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02" />
+    </linearGradient>
+    <linearGradient id="wave-b" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#fca5a5" stop-opacity="0.03" />
+      <stop offset="48%" stop-color="#ef4444" stop-opacity="0.22" />
+      <stop offset="100%" stop-color="#fca5a5" stop-opacity="0.03" />
+    </linearGradient>
+    <linearGradient id="top-line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0" />
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.28" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+    </linearGradient>
+    <pattern id="dot-grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#ffffff" fill-opacity="0.06" />
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="200" fill="url(#bg)" />
+  <rect width="1200" height="200" fill="url(#glow-left)" />
+  <rect width="1200" height="200" fill="url(#glow-right)" />
+  <rect width="1200" height="200" fill="url(#dot-grid)" />
+
+  <line x1="0" y1="0.5" x2="1200" y2="0.5" stroke="url(#top-line)" stroke-width="1" />
+
+  <path d="M0 136C102 108 206 170 336 146C470 120 558 78 708 108C852 138 1014 168 1200 142V200H0Z" fill="url(#wave-a)" />
+  <path d="M0 158C132 132 234 178 382 162C520 146 622 112 776 132C922 150 1040 178 1200 166V200H0Z" fill="url(#wave-b)" />
+  <path d="M0 152C150 126 260 174 404 156C544 138 638 102 790 122C938 140 1060 170 1200 160" fill="none" stroke="#ffffff" stroke-opacity="0.2" stroke-width="1.2" />
+
+  <circle cx="1034" cy="52" r="2.4" fill="#ffffff" fill-opacity="0.62" />
+  <circle cx="1070" cy="38" r="1.8" fill="#ffffff" fill-opacity="0.56" />
+  <circle cx="1108" cy="58" r="2.1" fill="#ffffff" fill-opacity="0.48" />
+  <circle cx="1142" cy="46" r="1.6" fill="#ffffff" fill-opacity="0.52" />
+</svg>
