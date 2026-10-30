@@ -59,34 +59,3 @@
 </picture>
 
 [![Kedhar's Holopin badges](https://holopin.me/kedhareswer)](https://holopin.io/@kedhareswer)
-
-## Dependencies
-
-```text
-# languages
-python  typescript  javascript  sql  r
-# ai / ml
-pytorch  tensorflow  keras  scikit-learn  opencv
-llms  rag  agents  nlp  computer-vision
-# web
-react  next.js  tailwind  shadcn/ui  fastapi  node.js
-# data
-pinecone  faiss  weaviate  postgres  mysql  pandas  numpy
-# infra
-aws  azure  vercel
-```
-
-## Limitations
-
-Ships a basic idea before it is brilliant. On purpose: *"A basic idea in progress beats a brilliant idea that never begins."*
-
-## Citation
-
-```bibtex
-@misc{kedhar2026,
-  author = {Kedhareswer Naidu},
-  title  = {kedhar: AI engineer and full-stack developer},
-  year   = {2026},
-  url    = {https://kedhar.vercel.app}
-}
-```
