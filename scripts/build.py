@@ -1,6 +1,6 @@
 """Build the animated SVGs behind the profile README ("Kedhar, tokenized").
 
-    python scripts/build.py            hero + eval (needs Pillow, run locally)
+    python scripts/build.py            hero (needs Pillow, run locally)
     python scripts/build.py training   training log (stdlib only; needs GITHUB_TOKEN, run by the daily Action)
 
 Each asset is written as assets/<name>-dark.svg and assets/<name>-light.svg for <picture>.
@@ -137,34 +137,6 @@ def hero(t):
                css, "".join(body))
 
 
-EVALS = [  # label, source, bar fill 0..1, shown value
-    ("Retrieval precision", "RAG PIPELINE", .82, "82%"),
-    ("Lighthouse performance", "WEB APPS", .95, "95+"),
-    ("Manual review effort removed", "DOCUMENT INTELLIGENCE", .60, "60%"),
-    ("Author rank on 21st.dev", "OCT 2026 · 1.2M COMPONENT VIEWS", 1.0, "#1 / 1,186"),
-]
-
-
-def evals(t):
-    W, lh = 1200, 62
-    H = 96 + lh * len(EVALS) + 30
-    css = (f".bar{{transform-box:fill-box;transform-origin:left;animation:fill 1.4s {EASE} both}}"
-           "@keyframes fill{from{transform:scaleX(0)}}.v{animation:fade .6s ease-out both}@keyframes fade{from{opacity:0}}")
-    body = [frame(t, W, H, "TABLE 01 — EVALUATION", "kedhar-v2026")]
-    x0, x1 = 430, 960
-    for k, (label, src, frac, val) in enumerate(EVALS):
-        y = 110 + k * lh
-        d = .2 + k * .18
-        body += [f'<text x="48" y="{y}" font-size="16" fill="{t["ink"]}">{esc(label)}</text>',
-                 f'<text x="48" y="{y + 20}" font-size="12" letter-spacing="1.5" fill="{t["ink"]}" fill-opacity=".5">{esc(src)}</text>',
-                 f'<rect x="{x0}" y="{y - 10}" width="{x1 - x0}" height="14" fill="{t["ink"]}" fill-opacity=".08"/>',
-                 f'<rect class="bar" x="{x0}" y="{y - 10}" width="{(x1 - x0) * frac:.0f}" height="14" '
-                 f'fill="{t["accent"] if frac == 1 else t["ink"]}" style="animation-delay:{d:.2f}s"/>',
-                 f'<text class="v" x="{W - 48}" y="{y + 4}" text-anchor="end" font-size="24" font-weight="700" '
-                 f'fill="{t["ink"]}" style="animation-delay:{d + .9:.2f}s">{esc(val)}</text>']
-    return svg(W, H, "Evaluation", "Benchmark bars: " + "; ".join(f"{l} {v}" for l, _, _, v in EVALS), css, "".join(body))
-
-
 # ---------------------------------------------------------------- training log (daily Action)
 
 def api(url, token, data=None):
@@ -264,5 +236,4 @@ if __name__ == "__main__":
         write("training", training, fetch_training(os.environ["GITHUB_TOKEN"], dt.datetime.now(dt.timezone.utc).date()))
     else:
         write("hero", hero)
-        write("eval", evals)
     print("done")

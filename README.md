@@ -14,25 +14,6 @@
   <img alt="Profile views" src="https://komarev.com/ghpvc/?username=Kedhareswer&label=inferences&color=E84500&style=flat-square">
 </p>
 
-## Model card · `kedhar-v2026`
-
-| field | value |
-| --- | --- |
-| **Architecture** | AI engineer × full-stack developer |
-| **Serving** | Software Developer at DiligenceVault: agent orchestration for financial documents |
-| **Training data** | B.Tech CSE, Data Science (AI & ML), Lovely Professional University, 2021–2025 · AI Engineer intern, DiligenceVault · Research intern, upGrad Campus (hybrid YARA + ML malware detection) · AI evaluator, Outlier.AI |
-| **Intended use** | LLM apps, RAG pipelines, agentic systems, computer vision, shipped full-stack |
-| **Region** | Madanapalli, Andhra Pradesh, India |
-| **Open to** | AI research collaborations: medical AI, bioinformatics, LLM systems, MLOps |
-
-## Evaluation
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/eval-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/eval-light.svg">
-  <img alt="Evaluation: retrieval precision 82%, Lighthouse performance 95+, manual review effort removed 60%, author rank on 21st.dev #1 of 1,186." src="./assets/eval-light.svg" width="100%">
-</picture>
-
 ## Checkpoints
 
 | step | checkpoint | notes |
