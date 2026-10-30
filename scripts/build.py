@@ -12,6 +12,7 @@ import json
 import os
 import sys
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 from pathlib import Path
@@ -140,8 +141,17 @@ def api(url, token, data=None):
     req = urllib.request.Request(url, data=json.dumps(data).encode() if data else None,
                                  headers={"Authorization": f"Bearer {token}", "Accept": "application/vnd.github+json",
                                           "User-Agent": USER})
-    with urllib.request.urlopen(req, timeout=30) as r:
-        return json.load(r)
+    for attempt in range(6):
+        try:
+            with urllib.request.urlopen(req, timeout=30) as r:
+                return json.load(r)
+        except urllib.error.HTTPError as e:
+            # the Actions token hits the search rate limit quickly; wait it out instead of failing the run
+            if e.code not in (403, 429) or attempt == 5:
+                raise
+            reset = e.headers.get("X-RateLimit-Reset")
+            wait = int(e.headers.get("Retry-After") or (int(reset) - time.time() + 2 if reset else 60))
+            time.sleep(min(max(wait, 5), 120))
 
 
 def fetch_training(token, today):
@@ -160,7 +170,7 @@ def fetch_training(token, today):
                     shas.add(it["sha"])
                     day = dt.date.fromisoformat(it["commit"]["committer"]["date"][:10])
                     counts[day] = counts.get(day, 0) + 1
-            time.sleep(2.2)  # search API allows 30 requests a minute
+            time.sleep(6)  # stay under the search rate limit
             if len(res["items"]) < 100:
                 break
         m = nxt
