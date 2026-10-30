@@ -1,4 +1,4 @@
-"""Build the animated SVGs behind the profile README (ASCII portrait hero + activity log).
+"""Build the animated SVGs behind the profile README ("Kedhar, tokenized").
 
     python scripts/build.py            hero (needs Pillow, run locally)
     python scripts/build.py training   training log (stdlib only; needs GITHUB_TOKEN, run by the daily Action)
@@ -8,6 +8,7 @@ Animations only use "from" keyframes, so the static style is the final frame and
 prefers-reduced-motion just switches them off.
 """
 import datetime as dt
+import hashlib
 import json
 import os
 import sys
@@ -24,12 +25,11 @@ USER = "Kedhareswer"
 THEMES = {
     "light": dict(paper="#f2ede3", ink="#17140f", accent="#e84500", rule="#17140f",
                   chips=["#ffd6c2", "#c9e4ff", "#d9f5c8", "#f6d3f2", "#fff1b8", "#e5e0d6"],
-                  ramp="@&%#X$x+=;:-·. "),
+                  ramp="@%#&8BWMhkbdpqwmZO0QLCJUYXzcvunxrjft/|()1{}[]?-_+~<>i!lI;:,^'. "),
     "dark": dict(paper="#12100d", ink="#ece5d6", accent="#ff6a2b", rule="#ece5d6",
                  chips=["#5a2e1f", "#1f3a55", "#2b4a22", "#4d2a49", "#544a1c", "#2f2b25"],
-                 ramp="@&%#X$x+=;:-·. "),
+                 ramp=" .'^,:;Il!i><~+_-?][}{1)(|/tfjrxnuvczXYUJCLQ0OZmwqpdbkhMW8B&#%@"),
 }
-SANS = "'Inter','Segoe UI',system-ui,-apple-system,Helvetica,Arial,sans-serif"
 MONO = "ui-monospace,'SF Mono','Cascadia Code',Consolas,Menlo,monospace"
 EASE = "cubic-bezier(.2,.8,.2,1)"
 
@@ -43,8 +43,8 @@ LETTERS = {
     "R": ["M0 100V0H36C52 0 60 11 60 25S52 50 36 50H0", "M30 50L60 100"],
 }
 
-FACTS = ["Software Developer @ DiligenceVault", "#1 of 1,186 authors on 21st.dev",
-         "Madanapalli, India", "Open to AI research collabs"]
+BIO = ["AI", " engineer", " &", " full", "-stack", " dev", ".", " #1", " on", " 21st", ".dev", ".",
+       " builds", " agents", " that", " ship", "."]
 
 
 def esc(s):
@@ -65,23 +65,34 @@ def frame(t, w, h, left, right):
             f'<line x1="48" y1="66" x2="{w - 48}" y2="66" stroke="{t["rule"]}" stroke-opacity=".2"/>')
 
 
+def token_id(tok):
+    # decorative ids, stable per token
+    return int(hashlib.md5(tok.encode()).hexdigest(), 16) % 50000
+
+
 def hero(t):
-    from PIL import Image  # only the hero needs it; the Action never builds the hero
+    from PIL import Image, ImageOps  # only the hero needs it; the Action never builds the hero
 
     W, H = 1200, 600
     ink, accent = t["ink"], t["accent"]
-    # ascii portrait; the pure-red studio backdrop drops out to blank paper
-    im = Image.open(ROOT / "Assests" / "me.png").convert("RGB").crop((40, 280, 640, 810))
-    cols, rows, cw, chh = 64, 32, 7.9, 14
+    # ascii portrait: tight head crop; the backdrop is pure red with blue just above green, red-lit skin is not
+    im = Image.open(ROOT / "Assests" / "me.png").convert("RGB").crop((130, 280, 590, 730))
+    cols, rows, cw, chh = 96, 60, 5, 8.2
     im = im.resize((cols, rows), Image.LANCZOS)
+    fg = Image.new("L", im.size, 0)
+    for xy in ((c, r) for c in range(cols) for r in range(rows)):
+        R, G, B = im.getpixel(xy)
+        fg.putpixel(xy, 0 if (R > 20 and G < .18 * R + 2 and B - G >= 3) else 255)
+    # light paper needs the face's tones spread out to read; on dark paper a plain stretch looks closer to the photo
+    gray = (ImageOps.equalize(im.convert("L"), mask=fg) if t is THEMES["light"]
+            else ImageOps.autocontrast(im.convert("L"), cutoff=2))
     ramp = t["ramp"]
     lines = []
     for r in range(rows):
         row = ""
         for c in range(cols):
-            R, G, B = im.getpixel((c, r))
-            lum = .299 * R + .587 * G + .114 * B
-            row += " " if R > 2 * G + 12 else ramp[min(len(ramp) - 1, int((lum / 200) ** .8 * (len(ramp) - 1)))]
+            v = gray.getpixel((c, r)) / 255
+            row += " " if not fg.getpixel((c, r)) else ramp[min(len(ramp) - 1, int(v * len(ramp)))]
         lines.append(row.rstrip())
     px, py = 690, 76
     css = (".row{animation:dec .5s steps(3) both}@keyframes dec{from{opacity:0}}"
@@ -90,21 +101,21 @@ def hero(t):
            f"@keyframes scan{{from{{transform:translateY(0)}}to{{transform:translateY({rows * chh}px)}}}}"
            f".chip{{animation:chip .45s {EASE} both}}@keyframes chip{{from{{opacity:0;transform:translateY(14px)}}}}"
            ".ltr{stroke-dasharray:1;animation:draw 1s ease-out both}@keyframes draw{from{stroke-dashoffset:1}}"
-           f".s{{font-family:{SANS}}}")
-    body = [frame(t, W, H, "KEDHARESWER NAIDU", "kedhar.vercel.app")]
+           ".blink{animation:blink 1s steps(1) infinite}@keyframes blink{50%{opacity:0}}")
+    body = [frame(t, W, H, "FIG. 01 — SELF, TOKENIZED", "kedhar.vercel.app")]
     junk = "!<>[]{}/\\|=+*^?#_01"
     seed = 5
     for r, row in enumerate(lines):
         y = py + 20 + r * chh
-        d = .35 + r * .045
+        d = .35 + r * .028
         scr = ""
         for ch in row:
             seed = (seed * 1103515245 + 12345) % 2 ** 31
             scr += " " if ch == " " else junk[seed % len(junk)]
         tl = f'textLength="{len(row) * cw:.1f}" lengthAdjust="spacingAndGlyphs"' if row.strip() else ""
-        body.append(f'<text class="scr" x="{px}" y="{y}" font-size="12.5" fill="{accent}" xml:space="preserve" {tl} '
+        body.append(f'<text class="scr" x="{px}" y="{y}" font-size="8.4" fill="{accent}" xml:space="preserve" {tl} '
                     f'style="animation-delay:{d:.2f}s">{esc(scr)}</text>'
-                    f'<text class="row" x="{px}" y="{y}" font-size="12.5" fill="{ink}" xml:space="preserve" {tl} '
+                    f'<text class="row" x="{px}" y="{y}" font-size="8.4" fill="{ink}" xml:space="preserve" {tl} '
                     f'style="animation-delay:{d + .25:.2f}s">{esc(row)}</text>')
     body.append(f'<rect class="scan" x="{px - 6}" y="{py}" width="{cols * cw + 12:.0f}" height="10" fill="{accent}" fill-opacity=".4"/>')
     s, gap = .92, 20
@@ -112,26 +123,24 @@ def hero(t):
         x = 48 + i * (60 * s + gap)
         body += [f'<path class="ltr" d="{d}" pathLength="1" fill="none" stroke="{ink}" stroke-width="{9 / s:.2f}" '
                  f'transform="translate({x:.1f} 120) scale({s})" style="animation-delay:{i * .1:.1f}s"/>' for d in LETTERS[ch]]
-    body += [f'<text class="s chip" x="48" y="278" font-size="28" font-weight="700" fill="{ink}" style="animation-delay:.7s">'
-             f'AI Engineer &amp; Full-Stack Developer</text>',
-             f'<text class="s chip" x="48" y="314" font-size="18" fill="{ink}" fill-opacity=".8" style="animation-delay:.85s">'
-             f'I build LLM apps, RAG pipelines and computer vision,</text>',
-             f'<text class="s chip" x="48" y="340" font-size="18" fill="{ink}" fill-opacity=".8" style="animation-delay:.9s">'
-             f'and ship them full-stack.</text>']
-    x, y, delay = 48, 380, 1.1
-    for k, fact in enumerate(FACTS):
-        w = len(fact) * 8.4 + 22
+    body.append(f'<text x="48" y="274" font-size="15" fill="{ink}">&gt; tokenize(<tspan fill="{accent}">"kedhar"</tspan>)'
+                f'<tspan class="blink">▌</tspan></text>')
+    x, y, delay = 48, 312, .9
+    for k, tok in enumerate(BIO):
+        w = max(len(tok), 2) * 9.4 + 14
         if x + w > 640:
-            x, y = 48, y + 44
+            x, y = 48, y + 62
         body.append(f'<g class="chip" style="animation-delay:{delay:.2f}s">'
-                    f'<rect x="{x}" y="{y}" width="{w:.0f}" height="32" rx="6" fill="{t["chips"][k]}"/>'
-                    f'<text x="{x + 11}" y="{y + 21}" font-size="14" fill="{ink}">{esc(fact)}</text></g>')
-        x += w + 8
-        delay += .15
-    return svg(W, H, "Kedhareswer Naidu — AI Engineer & Full-Stack Developer",
+                    f'<rect x="{x}" y="{y}" width="{w:.0f}" height="30" rx="5" fill="{t["chips"][k % 6]}"/>'
+                    f'<text x="{x + 7}" y="{y + 20}" font-size="15" fill="{ink}" xml:space="preserve">{esc(tok)}</text>'
+                    f'<text x="{x + 7}" y="{y + 46}" font-size="11" fill="{ink}" fill-opacity=".5">{token_id(tok)}</text></g>')
+        x += w + 6
+        delay += .12
+    body.append(f'<text x="48" y="{H - 44}" font-size="14" fill="{ink}" fill-opacity=".6">'
+                f'{len(BIO)} TOKENS · AI ENGINEER &amp; FULL-STACK DEVELOPER · MADANAPALLI, IN</text>')
+    return svg(W, H, "Kedhar, tokenized",
                "An ASCII portrait of Kedhar decodes from scrambled characters while a scan line passes over it. "
-               "Beside it: KEDHAR, AI Engineer & Full-Stack Developer. I build LLM apps, RAG pipelines and computer vision, "
-               "and ship them full-stack. " + ". ".join(FACTS) + ".",
+               "Beside it the name KEDHAR draws itself and his bio appears as tokenizer chips: " + "".join(BIO),
                css, "".join(body))
 
 
