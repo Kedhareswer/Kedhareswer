@@ -1,4 +1,4 @@
-"""Build the animated SVGs behind the profile README ("Kedhar, tokenized").
+"""Build the animated SVGs behind the profile README (ASCII portrait hero + activity log).
 
     python scripts/build.py            hero (needs Pillow, run locally)
     python scripts/build.py training   training log (stdlib only; needs GITHUB_TOKEN, run by the daily Action)
@@ -8,7 +8,6 @@ Animations only use "from" keyframes, so the static style is the final frame and
 prefers-reduced-motion just switches them off.
 """
 import datetime as dt
-import hashlib
 import json
 import os
 import sys
@@ -29,6 +28,7 @@ THEMES = {
                  chips=["#5a2e1f", "#1f3a55", "#2b4a22", "#4d2a49", "#544a1c", "#2f2b25"],
                  ramp="@&%#X$x+=;:-·. "),
 }
+SANS = "'Inter','Segoe UI',system-ui,-apple-system,Helvetica,Arial,sans-serif"
 MONO = "ui-monospace,'SF Mono','Cascadia Code',Consolas,Menlo,monospace"
 EASE = "cubic-bezier(.2,.8,.2,1)"
 
@@ -42,8 +42,8 @@ LETTERS = {
     "R": ["M0 100V0H36C52 0 60 11 60 25S52 50 36 50H0", "M30 50L60 100"],
 }
 
-BIO = ["AI", " engineer", " &", " full", "-stack", " dev", ".", " #1", " on", " 21st", ".dev", ".",
-       " builds", " agents", " that", " ship", "."]
+FACTS = ["Software Developer @ DiligenceVault", "#1 of 1,186 authors on 21st.dev",
+         "Madanapalli, India", "Open to AI research collabs"]
 
 
 def esc(s):
@@ -62,11 +62,6 @@ def frame(t, w, h, left, right):
             f'<text x="48" y="50" font-size="14" fill="{t["ink"]}" fill-opacity=".6">{esc(left)}</text>'
             f'<text x="{w - 48}" y="50" text-anchor="end" font-size="14" fill="{t["ink"]}" fill-opacity=".6">{esc(right)}</text>'
             f'<line x1="48" y1="66" x2="{w - 48}" y2="66" stroke="{t["rule"]}" stroke-opacity=".2"/>')
-
-
-def token_id(tok):
-    # decorative ids, stable per token
-    return int(hashlib.md5(tok.encode()).hexdigest(), 16) % 50000
 
 
 def hero(t):
@@ -94,8 +89,8 @@ def hero(t):
            f"@keyframes scan{{from{{transform:translateY(0)}}to{{transform:translateY({rows * chh}px)}}}}"
            f".chip{{animation:chip .45s {EASE} both}}@keyframes chip{{from{{opacity:0;transform:translateY(14px)}}}}"
            ".ltr{stroke-dasharray:1;animation:draw 1s ease-out both}@keyframes draw{from{stroke-dashoffset:1}}"
-           ".blink{animation:blink 1s steps(1) infinite}@keyframes blink{50%{opacity:0}}")
-    body = [frame(t, W, H, "FIG. 01 — SELF, TOKENIZED", "kedhar.vercel.app")]
+           f".s{{font-family:{SANS}}}")
+    body = [frame(t, W, H, "KEDHARESWER NAIDU", "kedhar.vercel.app")]
     junk = "!<>[]{}/\\|=+*^?#_01"
     seed = 5
     for r, row in enumerate(lines):
@@ -116,24 +111,26 @@ def hero(t):
         x = 48 + i * (60 * s + gap)
         body += [f'<path class="ltr" d="{d}" pathLength="1" fill="none" stroke="{ink}" stroke-width="{9 / s:.2f}" '
                  f'transform="translate({x:.1f} 120) scale({s})" style="animation-delay:{i * .1:.1f}s"/>' for d in LETTERS[ch]]
-    body.append(f'<text x="48" y="274" font-size="15" fill="{ink}">&gt; tokenize(<tspan fill="{accent}">"kedhar"</tspan>)'
-                f'<tspan class="blink">▌</tspan></text>')
-    x, y, delay = 48, 312, .9
-    for k, tok in enumerate(BIO):
-        w = max(len(tok), 2) * 9.4 + 14
+    body += [f'<text class="s chip" x="48" y="278" font-size="28" font-weight="700" fill="{ink}" style="animation-delay:.7s">'
+             f'AI Engineer &amp; Full-Stack Developer</text>',
+             f'<text class="s chip" x="48" y="314" font-size="18" fill="{ink}" fill-opacity=".8" style="animation-delay:.85s">'
+             f'I build LLM apps, RAG pipelines and computer vision,</text>',
+             f'<text class="s chip" x="48" y="340" font-size="18" fill="{ink}" fill-opacity=".8" style="animation-delay:.9s">'
+             f'and ship them full-stack.</text>']
+    x, y, delay = 48, 380, 1.1
+    for k, fact in enumerate(FACTS):
+        w = len(fact) * 8.4 + 22
         if x + w > 640:
-            x, y = 48, y + 62
+            x, y = 48, y + 44
         body.append(f'<g class="chip" style="animation-delay:{delay:.2f}s">'
-                    f'<rect x="{x}" y="{y}" width="{w:.0f}" height="30" rx="5" fill="{t["chips"][k % 6]}"/>'
-                    f'<text x="{x + 7}" y="{y + 20}" font-size="15" fill="{ink}" xml:space="preserve">{esc(tok)}</text>'
-                    f'<text x="{x + 7}" y="{y + 46}" font-size="11" fill="{ink}" fill-opacity=".5">{token_id(tok)}</text></g>')
-        x += w + 6
-        delay += .12
-    body.append(f'<text x="48" y="{H - 44}" font-size="14" fill="{ink}" fill-opacity=".6">'
-                f'{len(BIO)} TOKENS · AI ENGINEER &amp; FULL-STACK DEVELOPER · MADANAPALLI, IN</text>')
-    return svg(W, H, "Kedhar, tokenized",
+                    f'<rect x="{x}" y="{y}" width="{w:.0f}" height="32" rx="6" fill="{t["chips"][k]}"/>'
+                    f'<text x="{x + 11}" y="{y + 21}" font-size="14" fill="{ink}">{esc(fact)}</text></g>')
+        x += w + 8
+        delay += .15
+    return svg(W, H, "Kedhareswer Naidu — AI Engineer & Full-Stack Developer",
                "An ASCII portrait of Kedhar decodes from scrambled characters while a scan line passes over it. "
-               "Beside it the name KEDHAR draws itself and his bio appears as tokenizer chips: " + "".join(BIO),
+               "Beside it: KEDHAR, AI Engineer & Full-Stack Developer. I build LLM apps, RAG pipelines and computer vision, "
+               "and ship them full-stack. " + ". ".join(FACTS) + ".",
                css, "".join(body))
 
 
@@ -194,7 +191,7 @@ def training(t, data):
     glyphs = [(0, "·", .18), (1, ":", .5), (3, "+", .75), (6, "x", 1), (10, "#", 1)]
     css = (".c{animation:fade .4s ease-out both}@keyframes fade{from{opacity:0}}"
            f".scan{{animation:scan 9s linear 2s infinite both}}@keyframes scan{{from{{transform:translateX(0)}}to{{transform:translateX({53 * cw:.0f}px)}}}}")
-    body = [frame(t, W, H, "FIG. 02 — TRAINING LOG · PUBLIC COMMITS, LAST 12 MONTHS", f"updated {today}")]
+    body = [frame(t, W, H, "ACTIVITY · PUBLIC COMMITS, LAST 12 MONTHS", f"updated {today}")]
     year = sum(n for d, n in counts.items() if d >= first)
     for col in range(53):
         cells = []
@@ -212,15 +209,14 @@ def training(t, data):
         body.append(f'<g class="c" style="animation-delay:{col * .025:.3f}s">{"".join(cells)}</g>')
     body.append(f'<rect class="scan" x="{gx - 3}" y="{gy - 16}" width="{cw:.0f}" height="{7 * ch}" fill="{t["accent"]}" fill-opacity=".12"/>')
     cur, best = streaks(counts, today)
-    stats = [(f"{year:,}", "commits"), (f"{cur}d", "current streak"), (f"{best}d", "longest streak"), (f"{data['stars']}", "stars")]
+    stats = [(f"{year:,}", "commits"), (f"{cur} day{'s' * (cur != 1)}", "current streak"), (f"{best} days", "longest streak"), (f"{data['stars']}", "stars")]
     for k, (v, label) in enumerate(stats):
         x, y = 880 + (k % 2) * 150, 128 + (k // 2) * 82
         body += [f'<text x="{x}" y="{y}" font-size="30" font-weight="700" fill="{t["accent"] if k == 0 else t["ink"]}">{v}</text>',
                  f'<text x="{x}" y="{y + 22}" font-size="12" letter-spacing="1" fill="{t["ink"]}" fill-opacity=".6">{label.upper()}</text>']
-    legend = "  ".join(f"{g} {lo}+" for lo, g, _ in glyphs[1:])
-    body.append(f'<text x="{gx}" y="{H - 40}" font-size="13" fill="{t["ink"]}" fill-opacity=".6">· none   {legend}   '
-                f'· {data["repos"]} public repos</text>')
-    return svg(W, H, "Training log", f"Public commits over the last 12 months drawn as a grid of characters: {year} commits, "
+    body.append(f'<text x="{gx}" y="{H - 40}" font-size="13" fill="{t["ink"]}" fill-opacity=".6">'
+                f'One character per day, denser = more commits:  · 0   : 1-2   + 3-5   x 6-9   # 10+   · {data["repos"]} public repos</text>')
+    return svg(W, H, "Activity", f"Public commits over the last 12 months drawn as a grid of characters: {year} commits, "
                f"current streak {cur} day{'s' * (cur != 1)}, longest streak {best} day{'s' * (best != 1)}, {data['stars']} stars, {data['repos']} public repos.",
                css, "".join(body))
 
